@@ -1,0 +1,107 @@
+Input: ā, Output: am, Rejected
+Input: ā, Output: as, Rejected
+Input: mó, Output: mo, Rejected
+Input: ní, Output: ni, Rejected
+Input: ní, Output: ney, Rejected
+Input: ní, Output: ny, Rejected
+Input: yà, Output: a, Rejected
+Input: ā mó ní yà, Output: am mo ni a, Accepted
+Input: sī, Output: pi, Rejected
+Input: sī, Output: , Rejected
+Input: pí, Output: rinry, Rejected
+Input: ā sī pí, Output: as pi rin, Accepted
+Input: bèi, Output: ba, Accepted
+Input: guǒ, Output: gel, Rejected
+Input: bèi guǒ, Output: ba gel, Accepted
+Input: bān, Output: ban, Accepted
+Input: zhuó, Output: jo, Rejected
+Input: qín, Output: , Rejected
+Input: bān zhuó qín, Output: ban jo, Rejected
+Input: bā, Output: bal, Rejected
+Input: bā, Output: bus, Rejected
+Input: lěi, Output: let, Rejected
+Input: bā lěi, Output: bal let, Accepted
+Input: bùlǔsī, Output: blues, Rejected
+Input: bù, Output: blues, Accepted
+Input: shì, Output: , Rejected
+Input: shì, Output: se, Rejected
+Input: shì, Output: straw, Rejected
+Input: bā shì, Output: bus, Rejected
+Input: kā, Output: cof, Accepted
+Input: fēi, Output: fee, Rejected
+Input: yīn, Output: ine, Rejected
+Input: kāfēiyīn, Output: caffeine, Rejected
+Input: kǎ, Output: car, Accepted
+Input: lù, Output: o, Rejected
+Input: lǐ, Output: rie, Rejected
+Input: kǎ lù lǐ, Output: cal o rie, Accepted
+Input: tōng, Output: toon, Rejected
+Input: kǎ tōng, Output: car toon, Accepted
+Input: zhī, Output: chee, Accepted
+Input: zhī shì, Output: chee se, Accepted
+Input: qiǎo, Output: cho, Accepted
+Input: kè, Output: ter, Rejected
+Input: lì, Output: late, Rejected
+Input: qiǎo kè lì, Output: cho co late, Accepted
+Input: kā fēi, Output: cof fee, Accepted
+Input: qǔ, Output: coo, Accepted
+Input: qí, Output: kie, Rejected
+Input: qǔ qí, Output: coo kie, Accepted
+Input: shā, Output: sage, Rejected
+Input: fā, Output: fa, Rejected
+Input: shā fā, Output: so fa, Accepted
+Input: gā, Output: cur, Accepted
+Input: lí, Output: ry, Rejected
+Input: lí, Output: , Rejected
+Input: gā lí, Output: cur ry, Accepted
+Input: wéi, Output: vi, Accepted
+Input: tā, Output: ta, Rejected
+Input: tā, Output: tar, Rejected
+Input: mìng, Output: min, Rejected
+Input: wéi tā mìng, Output: vi ta min, Accepted
+Input: tǔ, Output: toast, Accepted
+Input: tǔ sī, Output: toast , Rejected
+Input: dé, Output: te, Accepted
+Input: lǜ, Output: le, Rejected
+Input: fēng, Output: phone, Rejected
+Input: dé lǜ fēng, Output: te le phone, Accepted
+Input: duō, Output: ber, Rejected
+Input: shì duō pí lí, Output: straw ber ry, Rejected
+Input: sān, Output: health, Accepted
+Input: ná, Output: , Rejected
+Input: sānná, Output: health, Rejected
+Input: mǎ, Output: mas, Accepted
+Input: bēi, Output: , Rejected
+Input: mǎ kè bēi, Output: mug, Rejected
+Input: mài, Output: mi, Accepted
+Input: mài kè fēng, Output: mi cro phone, Accepted
+Input: jī, Output: , Rejected
+Input: mǎ shā jī, Output: mas sage, Rejected
+Input: níng, Output: le, Accepted
+Input: méng, Output: mon, Rejected
+Input: níng méng, Output: le mon, Accepted
+Input: jiā, Output: jack, Rejected
+Input: jiā, Output: ga, Rejected
+Input: jiā kè, Output: jack et, Accepted
+Input: sù, Output: scoo, Accepted
+Input: dá, Output: , Rejected
+Input: sù kè dá, Output: scoo ter, Rejected
+Input: xiāng, Output: sham, Accepted
+Input: bō, Output: poo, Rejected
+Input: xiāng bō, Output: sham poo, Accepted
+Input: jí, Output: gui, Accepted
+Input: jí tā, Output: gui tar, Accepted
+Input: hā, Output: ho, Accepted
+Input: hāní, Output: ho ney, Rejected
+Input: léi, Output: la, Accepted
+Input: shè, Output: ser, Rejected
+Input: léi shè, Output: la ser, Accepted
+Input: lóng, Output: lon, Rejected
+Input: ní lóng, Output: ny lon, Accepted
+Input: dī, Output: taxi, Accepted
+Input: dī shì, Output: taxi , Rejected
+Input: yú, Output: yo, Accepted
+Input: yú jiā, Output: yo ga, Accepted
+Input: bēng, Output: ban, Accepted
+Input: dài, Output: dage, Rejected
+Input: bēngdài, Output: bandage, Rejected
